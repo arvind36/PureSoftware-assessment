@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Events & Offers</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/ef8928f541.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <h2>Events & Offers</h2>
+    <div class="form-container">
+      <form class="form-details">
+        <div class="date">
+          <label for="date">Date Range</label>
+          <input type="datetime-local" id="date" name="date" />
+        </div>
+        <div class="type">
+          <label for="type">Type</label>
+          <select name="type" id="type">
+            <option value="all">All type</option>
+          </select>
+        </div>
+        <div class="property">
+          <label for="property">Property</label>
+          <select name="property" id="property">
+            <option value="all">All Property</option>
+          </select>
+        </div>
+        <div class="view">
+          <label for="view">View</label>
+          <select name="view" id="view">
+            <option value="active">Active</option>
+          </select>
+        </div>
+        <div class="toggle">
+          <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round"></span>
+          </label>
+        </div>
+        <div class="invite">
+          <h6>Invited</h6>
+        </div>
+        <div class="filter">
+          <h6>Clear All Filters</h6>
+        </div>
+      </form>
+    </div>
+    <div class="event-list">
+      <input class="nosubmit" type="search" placeholder="Search..." />
+      <div>
+        <i class="fas fa-border-all"></i>
+        <i class="fas fa-list"></i>
+      </div>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="image">
+          <img src="chairs.png" alt="chairs image" />
+        </div>
+        <div class="public-offer">
+          <button>Public Offer</button>
+        </div>
+
+        <div class="public-promo">Public Promo</div>
+        <div class="card-body">
+          <div class="date">
+            <i class="far fa-calendar-alt"></i> 01 May, 2023 - 04 May, 2023
+          </div>
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> Hard Rock Café Lisbon
+          </div>
+          <div class="card-footer">
+            <button class="view-more-button">View More</button>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="image">
+          <img src="burger.png" alt="chairs image" />
+        </div>
+        <div class="public-offer">
+          <button>Food</button>
+        </div>
+
+        <div class="public-promo">$ 150 F&B Offer</div>
+        <div class="card-body">
+          <div class="date">
+            <i class="far fa-calendar-alt"></i> 01 May, 2023 - 04 May, 2023
+          </div>
+          <div class="location">
+            <i class="fas fa-map-marker-alt"></i> Hard Rock Café Lisbon
+          </div>
+          <div class="card-footer">
+            <button class="view-more-button">View More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

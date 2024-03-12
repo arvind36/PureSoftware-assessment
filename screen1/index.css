@@ -1,0 +1,105 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 5px;
+}
+.header {
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header i {
+  background-color: gainsboro;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  font-size: 24px;
+  color: black;
+}
+.redemption-details {
+  display: flex;
+}
+.actions,
+.actions-1 {
+  display: flex;
+  align-items: center;
+  margin-left: 800px;
+}
+.actions-2 {
+  display: flex;
+  align-items: center;
+  margin-left: 900px;
+}
+
+.redemption-info {
+  margin-left: 10px;
+}
+.redemption-info button {
+  color: orangered;
+  background-color: #f5e7c4;
+  border: 1px solid orange;
+  border-radius: 5px;
+  height: 24px;
+  width: 70px;
+  font-size: medium;
+  font-weight: 600;
+}
+.user-info p span {
+  color: green;
+  font-weight: 600;
+}
+.actions button {
+  height: 30px;
+  width: 100px;
+  color: blue;
+  border: 1px solid blue;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 600;
+}
+.actions-1 button {
+  height: 30px;
+  width: 100px;
+  color: gray;
+  border: 1px solid gray;
+  border-radius: 5px;
+  font-size: larger;
+  font-weight: 600;
+}
+.actions-2 button {
+  display: none;
+}
+.icon {
+  font-size: 50px;
+  color: grey;
+  display: flex;
+  align-items: center;
+  margin-right: 35px;
+}
+.footer {
+  height: 60px;
+  background-color: #f5f5f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.footer button {
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  height: 28px;
+  width: 80px;
+  font-size: medium;
+  font-weight: 500;
+}
